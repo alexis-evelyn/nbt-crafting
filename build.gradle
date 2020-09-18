@@ -38,7 +38,7 @@ dependencies {
 	        'fabric-api-base': '0.1.3+12a8474ca7',
 			'fabric-networking-v0': '0.1.10+e00ecb5fa7',
 			'include': false,
-			'fabric-registry-sync-v0': '0.4.1+847665c2a7',
+			'fabric-registry-sync-v0': '0.4.5+fcdfdfa195',
 			'fabric-resource-loader-v0': '0.2.8+35e08e33a7',
 			'fabric-tag-extensions-v0': '1.0.1+35e08e33a7'
 	]
@@ -114,14 +114,14 @@ publishing {
 			}
 		}
 	}
-	repositories {
-		maven {
-			name = "Siphalor"
-			url = "https://maven.siphalor.de/upload.php"
-			credentials {
-				username = siphalorMavenUser
-				password = siphalorMavenPassword
-			}
-		}
-	}
+//	repositories {
+//		maven {
+//			name = "Siphalor"
+//			url = "https://maven.siphalor.de/upload.php"
+//			credentials {
+//				username = siphalorMavenUser
+//				password = siphalorMavenPassword
+//			}
+//		}
+//	}
 }
